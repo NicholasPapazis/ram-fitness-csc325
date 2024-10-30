@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefHeight="553.0" prefWidth="660.0" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22">
+    <MenuBar>
+        <Menu text="Home" />
+        <Menu text="Build Muscle" />
+        <Menu text="Reduce Fat" />
+        <Menu text="Powerlifting" />
+        <Menu text="Calisthenics" />
+    </MenuBar>
+    <Label style="-fx-font-size: 24px; -fx-text-fill: #333;" text="The Ultimate Guide to Reducing Body Fat" />
+    <ScrollPane fitToWidth="true">
+        <VBox spacing="20">
+            <VBox spacing="10">
+                <Label style="-fx-font-size: 20px;" text="High-Intensity Interval Training (HIIT)" />
+                <HBox spacing="10">
+                    <ImageView fitHeight="100" fitWidth="100">
+                        <Image url="@reducefat1.png" />
+                    </ImageView>
+                    <VBox spacing="5">
+                        <Label text="HIIT is a training technique in which you give all-out, one hundred percent effort through quick, intense bursts of exercise, followed by short, sometimes active, recovery periods. This type of training gets and keeps your heart rate up and burns more fat in less time. HIIT workouts also help build endurance since the body is pushing past its limit with these random intensive bursts." wrapText="true" />
+                        <Label style="-fx-font-weight: bold" text="Benefits:" />
+                        <Label text="Improves metabolism and fat burning even after the workout is done." />
+                        <Label text="Improves endurance and cardiovascular health." />
+                        <Label style="-fx-font-weight: bold" text="Example Workout:" />
+                        <Label text="30 seconds of sprinting followed by 30 seconds of walking (repeat for 15-20 minutes)." />
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox spacing="10">
+                <Label style="-fx-font-size: 20px;" text="Circuit Training" />
+                <HBox spacing="10">
+                    <ImageView fitHeight="100" fitWidth="100">
+                        <Image url="@reducefat2.png" />
+                    </ImageView>
+                    <VBox spacing="5">
+                        <Label text="Circuit training is a form of body conditioning or resistance training using high-intensity aerobics. It targets strength building and muscular endurance." wrapText="true" />
+                        <Label style="-fx-font-weight: bold" text="Benefits:" />
+                        <Label text="Burns calories and fat efficiently." />
+                        <Label text="Enhances muscle tone along with cardiovascular health." />
+                        <Label style="-fx-font-weight: bold" text="Example Workout:" />
+                        <Label text="A sequence of six exercises performed back to back, such as push-ups, squats, jumping jacks, lunges, sit-ups, and burpees, doing each for 30 seconds to one minute before moving on to the next without rest." />
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox spacing="10">
+                <Label style="-fx-font-size: 20px;" text="Strength Training" />
+                <HBox spacing="10">
+                    <ImageView fitHeight="100" fitWidth="100">
+                        <Image url="@reducefat3.png" />
+                    </ImageView>
+                    <VBox spacing="5">
+                        <Label text="Incorporating moderate weight lifting into your fitness routine is essential to maintain muscle mass while reducing fat." wrapText="true" />
+                        <Label style="-fx-font-weight: bold" text="Benefits:" />
+                        <Label text="Helps build muscle, which naturally burns more calories at rest than fat." />
+                        <Label text="Improves overall body strength and fitness." />
+                        <Label style="-fx-font-weight: bold" text="Example Workout:" />
+                        <Label text="Compound movements like deadlifts, bench presses, and squats; 3 sets of 8-12 reps." />
+                    </VBox>
+                </HBox>
+            </VBox>
+        </VBox>
+    </ScrollPane>
+</VBox>
